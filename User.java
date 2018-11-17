@@ -12,4 +12,8 @@ public class User
     this.firstName = firstName;
     this.lastName = lastName;
   }
+  public User(String firstName, String lastName) {//конструктор с двумя параметрами
+    this.firstName = firstName;
+    this.lastName = lastName;
+ }
 }
